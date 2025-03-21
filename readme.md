@@ -1,5 +1,5 @@
 LIvret avec:
-* Dictinnaire de données
+* Dictionaire de données
 * Règles d'utilisation
 * entités
 * MCD
