@@ -11,13 +11,15 @@
     "dev": "node --watch server.js",
     "start": "node server.js",
     "init-db": "rm -f ./data/sneakersLAB.db && node ./config/initDB.js",
-    "vitest": "vitest --globals"
+    "vitest": "vitest --globals",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "“SneakersLabs” - Le réseau social de Sneakers collaboratif",
   "devDependencies": {
+    "husky": "^9.1.7",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7",
     "vitest": "^3.0.8"
@@ -29,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/marcosmanzanarescampo/SneakersLAB/issues"
   },
-  "homepage": "https://github.com/marcosmanzanarescampo/SneakersLAB#readme"
+  "homepage": "https://github.com/marcosmanzanarescampo/SneakersLAB#readme",
+  "dependencies": {
+    "prettier": "^3.5.3"
+  }
 }
